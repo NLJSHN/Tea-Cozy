@@ -105,31 +105,12 @@ footer {
   padding: 20px 10px 10px;
 }
 
-.row1 {
-  display: inline-flex;
-}
-
-.fall {
-  display: flex;
-  flex-direction: column;
-}
-
-.spiced {
-  display: flex;
-  flex-direction: column;
-}
-
-.seasonal {
-  display: flex;
-  flex-direction: column;
-}
-
-.row2 {
+.row1, .row2 {
   display: inline-flex;
   justify-content: center;
 }
 
-.myrtle , .bedford {
+.fall , .spiced , .seasonal , .myrtle , .bedford {
   display: flex;
   flex-direction: column;
 }
