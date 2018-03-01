@@ -41,6 +41,11 @@ a {
   color: seashell;
 }
 
+footer {
+    text-align: left;
+    padding: 20px;
+}
+
 /* Class Elements */
 
 .logo {
@@ -48,7 +53,7 @@ a {
   padding-left: 10px;
 }
 
-.main {
+.box1 {
   display: flex;
   justify-content: center;
 }
@@ -70,4 +75,119 @@ a {
 
 .intro h2, .intro h4 {
   padding: 10px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+}
+
+.title h2, .title h4 {
+  padding: 10px;
+}
+
+.featured img {
+  height: 200px;
+  width: 300px;
+  padding: 20px 10px 10px;
+}
+
+.row1 {
+  display: inline-flex;
+}
+
+.fall {
+  display: flex;
+  flex-direction: column;
+}
+
+.spiced {
+  display: flex;
+  flex-direction: column;
+}
+
+.seasonal {
+  display: flex;
+  flex-direction: column;
+}
+
+.row2 {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.myrtle , .bedford {
+  display: flex;
+  flex-direction: column;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  margin-top: 50px;
+  padding-top: 30px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+.locations {
+  display: block;
+}
+
+.locations h2 {
+  padding-bottom: 15px;
+}
+
+.locations span {
+  display: block;
+  padding: 16px;
+}
+
+.locations h3 {
+  padding: 15px;
+}
+
+.downtown, .east, .oak {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.east {
+  margin: 0 40px;
+}
+
+.box4 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.end h2 {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.end h5 {
+  padding: 20px;
 }
