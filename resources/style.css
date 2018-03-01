@@ -4,3 +4,70 @@
   margin: 0;
   padding: 0;
 }
+
+/* Body Elements */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+  z-index: 1;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+/* Class Elements */
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  padding-top: 70px;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.intro {
+  background-color: black;
+  width: 100%;
+}
+
+.intro h2, .intro h4 {
+  padding: 10px;
+}
